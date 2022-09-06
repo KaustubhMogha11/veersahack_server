@@ -55,9 +55,9 @@ In the session(video call) , using IBM speech to text and summarizer API, platfo
 
 
 ## Live Demo at:
-- https://shrink4shrink.netlify.app/  (Frontend)
+- https://veersahack.netlify.app/  (Frontend)
 - https://veersaserver.herokuapp.com/ (Backend)
 
 ## Our Repositories:
-- https://github.com/jinik21/s4sfrontend
-- https://github.com/jinik21/s4sbackend
+- - https://github.com/mittalavi/VeersaHackathon
+- https://github.com/KaustubhMogha11/veersahack_server
