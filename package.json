@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaustubhMogha11/veersahack_server.git"
+  },
+  "author": "kk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaustubhMogha11/veersahack_server/issues"
+  },
+  "homepage": "https://github.com/KaustubhMogha11/veersahack_server#readme",
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "ibm-watson": "^7.1.1",
+    "mongoose": "^6.5.4",
+    "node-cron": "^3.0.2",
+    "passport": "^0.6.0",
+    "passport-local-mongoose": "^7.1.2"
+  }
+}
