@@ -1,6 +1,5 @@
 const newNotes = async (req, resp, User, Sessions) => {
 
-    const usr = await User.findOne({ 'email': req.body.email });
     const session =  await Sessions.findOne({'_id':req.body.id});
     try {
 
@@ -21,3 +20,4 @@ const newNotes = async (req, resp, User, Sessions) => {
 module.exports = {
     newNotes: newNotes
 };
+
