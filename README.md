@@ -56,7 +56,7 @@ In the session(video call) , using IBM speech to text and summarizer API, platfo
 
 ## Live Demo at:
 - https://shrink4shrink.netlify.app/  (Frontend)
-- http://localhost:3001/ (Backend)
+- https://veersaserver.herokuapp.com/ (Backend)
 
 ## Our Repositories:
 - https://github.com/jinik21/s4sfrontend
