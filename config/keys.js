@@ -1,6 +1,7 @@
 module.exports = {
   mongodb: {
-    mongoURI:"mongodb+srv://nik:kuchbhi@cluster0.md8ne.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    mongoURI:"mongodb+srv://admin-jay:admin-jay@cluster0.ikljz0b.mongodb.net/?retryWrites=true&w=majority",
+    
   },
   ibm_key: {
     SPEECH_TO_TEXT_URL:"https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/d5c93676-e0f3-45ec-9fab-1a87e447fb43",
