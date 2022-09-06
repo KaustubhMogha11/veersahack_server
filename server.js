@@ -38,6 +38,15 @@ const adminData = require("./controllers/adminpaneldata")
 const sessionDetail= require("./controllers/session_detail")
 const nodemailer = require("nodemailer");
 
+app.use(
+	cors({
+		origin: "*",
+	})
+);
+if (process.env.NODE_ENV === "development") {
+	app.use(morgan("dev"));
+}
+
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
