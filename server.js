@@ -36,7 +36,20 @@ const newRoutine = require("./controllers/add_routines")
 const userRoutines = require("./controllers/get_routines");
 const adminData = require("./controllers/adminpaneldata")
 const sessionDetail= require("./controllers/session_detail")
-const nodemailer = require("nodemailer");
+// const nodemailer = require("nodemailer");
+
+
+
+const app = express();
+app.use(bodyParser.json());
+// app.use(cors());
+app.use(
+  session({
+    secret: "kuchbhi",
+    resave: false,
+    saveUninitialized: false,
+  })
+);
 
 app.use(
 	cors({
@@ -47,16 +60,6 @@ if (process.env.NODE_ENV === "development") {
 	app.use(morgan("dev"));
 }
 
-const app = express();
-app.use(bodyParser.json());
-app.use(cors());
-app.use(
-  session({
-    secret: "kuchbhi",
-    resave: false,
-    saveUninitialized: false,
-  })
-);
 mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("MongoDB successfully connected"))
