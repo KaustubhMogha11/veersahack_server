@@ -4,44 +4,44 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
   firstname: {
     type: String,
-    required: true
+    // required: true
   },
   lastname: {
     type: String,
-    required: true
+    // required: true
   },
   email: {
     type: String,
-    required: true
+    // required: true
   },
   phone: {
     type: String,
-    required: true,
+    // required: true,
     maxLength: 13
   },
   dob: {
     type: String,
-    required: true
+    // required: true
   },
   address: {
     type: String,
-    required: true
+    // required: true
   },
   state: {
     type: String,
-    required: true
+    // required: true
   },
   city: {
     type: String,
-    required: true
+    // required: true
   },
   pincode: {
     type: String,
-    required: true
+    // required: true
   },
   picture: {
     type: String,
-    required: true
+    // required: true
   },
   password: {
     type: String,
@@ -62,17 +62,17 @@ const userSchema = new Schema({
     data: {
       yearofexperience: {
         type: String,
-        required: true,
+        // required: true,
         default:0
       },
       liscence: {
         type: String,
-        required: true,
+        // required: true,
         default:"-"
       },
       liscence_doc: {
         type: String,
-        required: true,
+        // required: true,
         default:"-"
       }
     }
