@@ -12,8 +12,10 @@ const assignDoctor = async (req, resp, User) => {
             })
             usr.save()
             resp.json("Doctor Assigned Sucessfully added");
-        }
+        }else{
         resp.json("Error while Assigning Doctor");
+
+        }
     }
     catch {
         resp.json("Error while Assigning Doctor");
