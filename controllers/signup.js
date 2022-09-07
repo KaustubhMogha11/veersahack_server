@@ -1,6 +1,7 @@
 const axios = require('axios');
 const handlesignup = (req, resp, User) => {
     // console.log(req);
+    //attempt
     // console.log("-------------------------------------------")
     if (req.body.doctor == 'false') {
         User.register({ username: req.body.email, email: req.body.email, firstname: req.body.firstname, lastname: req.body.lastname, phone: req.body.phone, dob: req.body.dob, address: req.body.address, state: req.body.state, city: req.body.city, pincode: req.body.pincode, picture: req.body.picture }, req.body.password,
