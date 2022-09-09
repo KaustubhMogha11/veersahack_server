@@ -74,6 +74,10 @@ const userSchema = new Schema({
         type: String,
         // required: true,
         default:"-"
+      },
+      userspouse:{
+        type:String,
+        default:""
       }
     }
   },

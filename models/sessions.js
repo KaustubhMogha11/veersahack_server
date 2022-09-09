@@ -41,5 +41,6 @@ const sessions = new Schema({
     type: String,
     default:"0"
   },
+  
 });
 module.exports = sessions;
